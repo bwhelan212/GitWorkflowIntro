@@ -111,5 +111,5 @@ def team_luke_noah_maya():
     return render_template('teams/luke_noah_maya.html')
 
 @app.route("/team2")
-def team2:
+def team2():
     return render_template('teams/team2.html')
